@@ -1,38 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Routes from "./routes";
-import { Link, useHistory } from "react-router-dom";
+import { Link, } from "react-router-dom";
 import PlayCircleOutlineIcon from "@material-ui/icons/PlayCircleOutline";
 
 function App() {
 
-  const history = useHistory();
-  const [path, setPath] = useState("");
 
-  window.addEventListener("load", () => {
-
-    if (window.location.pathname === "/ourteam") {
-      setPath(window.location.pathname);
-    }
-  });
-
-
-  const checkPath = () => {
-    history.listen((location) => {
-      setPath(location.pathname);
-    });
-  }
-
-
-  useEffect(() => {
-    checkPath();
-  }, []);
-
-
-  const showContact = path;
-  let _contact;
-  if (showContact !== "/ourteam") {
-    _contact = (<li><Link to="/ourteam">Our Team</Link></li>)
-  }
 
 
   return (
@@ -46,7 +19,6 @@ function App() {
             </li>
           </ul>
           <ul>
-            {_contact}
           </ul>
         </nav>
         <Routes />
