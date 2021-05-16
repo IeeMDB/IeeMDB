@@ -8,7 +8,7 @@ import Thanks from "./components/Thanks";
 
 const Routes = () => (
     <Switch>
-        <Route exact path="/" component={Main} />
+        <Route exact path="/IeeMDB" component={Main} />
     </Switch>
 );
 
