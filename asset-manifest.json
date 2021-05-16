@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/IeeMDB/static/css/main.730747a3.chunk.css",
+    "main.js": "/IeeMDB/static/js/main.84627ced.chunk.js",
+    "main.js.map": "/IeeMDB/static/js/main.84627ced.chunk.js.map",
+    "runtime-main.js": "/IeeMDB/static/js/runtime-main.46f6ad5a.js",
+    "runtime-main.js.map": "/IeeMDB/static/js/runtime-main.46f6ad5a.js.map",
+    "static/js/2.0e540853.chunk.js": "/IeeMDB/static/js/2.0e540853.chunk.js",
+    "static/js/2.0e540853.chunk.js.map": "/IeeMDB/static/js/2.0e540853.chunk.js.map",
+    "index.html": "/IeeMDB/index.html",
+    "precache-manifest.0b7e420df7b592bc14d2835d8524807d.js": "/IeeMDB/precache-manifest.0b7e420df7b592bc14d2835d8524807d.js",
+    "service-worker.js": "/IeeMDB/service-worker.js",
+    "static/css/main.730747a3.chunk.css.map": "/IeeMDB/static/css/main.730747a3.chunk.css.map",
+    "static/js/2.0e540853.chunk.js.LICENSE.txt": "/IeeMDB/static/js/2.0e540853.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/IeeMDB/static/media/Group 3.1b483f5f.svg",
+    "static/media/preview.jpg": "/IeeMDB/static/media/preview.808a6548.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46f6ad5a.js",
+    "static/js/2.0e540853.chunk.js",
+    "static/css/main.730747a3.chunk.css",
+    "static/js/main.84627ced.chunk.js"
+  ]
+}
