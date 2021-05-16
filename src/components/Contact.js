@@ -1,6 +1,7 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-
+import "../css/style.css"
+import "../css/responsive.css"
 const Contact = () => {
 
     const history = useHistory();
@@ -10,9 +11,9 @@ const Contact = () => {
 
     const [title, setTitle] = useState("");
     const [content, setContent] = useState("");
-    const [contactEmail, setContactEmail] = useState(""); 
+    const [contactEmail, setContactEmail] = useState("");
 
-    const sendEmail = async(e) =>{
+    const sendEmail = async (e) => {
         e.preventDefault();
 
         let email = {
@@ -25,25 +26,54 @@ const Contact = () => {
     }
 
 
-    return(
+    return (
         <React.Fragment>
-           <button className="back" onClick={goBack}> &larr; Go Back</button>
+            <button className="back" onClick={goBack}> &larr; Go Back</button>
 
-            <form className="contact" onSubmit={sendEmail}>
-                <h2>Send me a message so we can start a new project</h2>
-                
-                <label htmlFor="title">Message Title: </label>
-                <input type="text" name="title" onChange={(e) => setTitle(e.target.value)} />
-                
-                <label htmlFor="content">Message Content: </label>
-                <textarea name="content"  onChange={(e) => setContent(e.target.value)}  ></textarea>
-            
-                <label htmlFor="email">Contact Email: </label>
-                <input type="email" name="email" onChange={(e) => setContactEmail(e.target.value)} />
+            {/* <!-- team --> */}
+            <div id="team" class="testimonial">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="titlepage">
+                                <h2>Our Team</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <a href="https://github.com/yoBoyio" target="_blank">
+                                <img src="https://avatars.githubusercontent.com/yoBoyio?v=4" /></a>
+                        </div>
+                        <div class="column">
+                            <a href="https://github.com/kwstaspexli" target="_blank">
+                                <img src="https://avatars.githubusercontent.com/kwstaspexli?v=4" /></a>
+                        </div>
+                        <div class="column">
+                            <a href="https://github.com/dinosts" target="_blank">
+                                <img src="https://avatars.githubusercontent.com/dinosts?v=4" /></a>
+                        </div>
+                        <div class="column">
+                            <a href="https://github.com/michaeltheo" target="_blank">
+                                <img src="https://avatars.githubusercontent.com/michaeltheo?v=4" /></a>
+                        </div>
+                        <div class="column">
+                            <a href="https://github.com/Dpontika" target="_blank">
+                                <img src="https://avatars.githubusercontent.com/Dpontika?v=4" /></a>
+                        </div>
+                    </div>
 
-                <input type="submit" value="Send Message" />
-            </form>
+                    <div class="clients_box">
+                        <h3>Who we are</h3>
 
+                        <p>We are students of computer science at <b><a href="https://www.iee.ihu.gr/">IHU SKG</a></b>
+                            Visit our github pages to get to know us
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            {/* <!-- end team --> */}
         </React.Fragment>
     )
 
