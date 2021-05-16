@@ -1,6 +1,6 @@
-import React, {useState} from "react";
+import React from "react";
 import { useParams, useHistory } from "react-router-dom";
-
+import GitHubIcon from '@material-ui/icons/GitHub';
 const Thanks = () => {
 
     const history = useHistory();
@@ -9,16 +9,16 @@ const Thanks = () => {
     console.log(history);
 
 
-    return(
+    return (
         <React.Fragment>
-           <div className="thanks">
-             <p>Thanks <strong>{name}!!</strong></p>
-             <p>You joined <strong>{history.location.state}</strong></p>
-           
-            <hr/>
-            <p><strong>Disclaimer : </strong>Duis ullamcorper erat nisl, vel blandit sem mollis eu. Sed ac fringilla mi. Maecenas a mi nibh. Vestibulum ut sapien magna. Vivamus vitae nunc eu odio suscipit pulvinar. Duis tortor quam, lacinia eget justo in, vulputate vulputate mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
-           
-           </div>
+            <div className="thanks">
+                <a href='https://github.com/IeeMDB/IMDb-clone' target="_blank">
+                    <GitHubIcon style={{ fontSize: 100 }} />
+                </a>
+                <p> Find our project on GitHub!!</p>
+                <hr />
+
+            </div>
         </React.Fragment>
     )
 

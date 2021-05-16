@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Routes from "./routes";
 import { Link, } from "react-router-dom";
 import PlayCircleOutlineIcon from "@material-ui/icons/PlayCircleOutline";
-
+import Thanks from './components/Thanks'
 function App() {
 
 
@@ -23,6 +23,7 @@ function App() {
         </nav>
         <Routes />
       </div>
+      <Thanks />
     </div>
   );
 }

@@ -29,7 +29,7 @@ const Main = () => {
                 <div>
                     <h1>Welcome  <br /> to IeeMDB.</h1>
                     <p>Welcome to IeeMDB, a web application where you can find everything about your favorite movie and actor.
-                    <br />Find ratings ,reviews and do yours . </p>
+                    <br />You can rate any movie and create your watchlist. </p>
                     <a href='https://ieeemdb.netlify.app/' target="_blank" >Web Page</a>
                 </div>
 
@@ -44,8 +44,8 @@ const Main = () => {
                         <div className="services-card service-one"></div>
                         <div className="service-description">
 
-                            <h3>SEO Friendly Apps.</h3>
-                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt massa sem. Vestibulum quis augue ac orci bibendum pellentesque ut nec dolor. Quisque metus ipsum, pulvinar quis ipsum quis, consequat cursus leo. Suspendisse fermentum, nisl et ultricies blandit, mauris metus accumsan mauris, sit amet vulputate elit nunc id libero. Vivamus porta lacus libero, et ullamcorper est volutpat ac. Maecenas eros urna, interdum in lectus nec, tristique semper mauris. Duis finibus nunc sed nulla bibendum, ut ornare tellus finibus. Donec id magna risus.</div>
+                            <h3>Movies.</h3>
+                            <div>Search for your favourite movies of all categories and languages or see top rated films, new and upcoming releases. Add movies to your watchlist and rate them.</div>
 
                         </div>
                     </div>
@@ -56,22 +56,47 @@ const Main = () => {
 
                         <div className="services-card service-two"></div>
                         <div className="service-description">
-                            <h3>Clear &amp; Optimized Code.</h3>
-                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt massa sem. Vestibulum quis augue ac orci bibendum pellentesque ut nec dolor. Quisque metus ipsum, pulvinar quis ipsum quis, consequat cursus leo. Suspendisse fermentum, nisl et ultricies blandit, mauris metus accumsan mauris, sit amet vulputate elit nunc id libero. Vivamus porta lacus libero, et ullamcorper est volutpat ac. Maecenas eros urna, interdum in lectus nec, tristique semper mauris. Duis finibus nunc sed nulla bibendum, ut ornare tellus finibus. Donec id magna risus.</div>
+                            <h3>Actors.</h3>
+                            <div>Search details about your favourite popular actors through their bio and the movies they've played.</div>
                         </div>
                     </div>
 
-
-
-                    <div className="service-container">
-                        <div className="services-card service-three"></div>
-                        <div className="service-description">
-                            <h3>Support 24 hours.</h3>
-                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt massa sem. Vestibulum quis augue ac orci bibendum pellentesque ut nec dolor. Quisque metus ipsum, pulvinar quis ipsum quis, consequat cursus leo. Suspendisse fermentum, nisl et ultricies blandit, mauris metus accumsan mauris, sit amet vulputate elit nunc id libero. Vivamus porta lacus libero, et ullamcorper est volutpat ac. Maecenas eros urna, interdum in lectus nec, tristique semper mauris. Duis finibus nunc sed nulla bibendum, ut ornare tellus finibus. Donec id magna risus.</div>
-                        </div>
-
-                    </div>
                 </section>
+
+                <div id="tech" class="about">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="titlepage">
+                                    <h2>Tech Stack</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="about-box">
+
+
+                                    <p>Here are some of the tools,coding languages and programs
+                            <br />used to build our application.
+                        </p>
+                                    <figure >
+                                        <br />
+                                        <br />
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png" />
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dotnet/dotnet.png" />
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
+                                        <img alt="firebase" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" />
+                                        <img alt="mysql" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />
+                                        <img alt="redux" style={{ height: "60px", width: "150px" }} src="https://camo.githubusercontent.com/f28b5bc7822f1b7bb28a96d8d09e7d79169248fc/687474703a2f2f692e696d6775722e636f6d2f4a65567164514d2e706e67" />
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
 
                 <section>
                     <div id="team" class="testimonial">
@@ -110,7 +135,7 @@ const Main = () => {
                                 <h3>Who we are</h3>
 
                                 <p>We are students of computer science at <b><a href="https://www.iee.ihu.gr/">IHU SKG</a></b>
-                            Visit our github pages to get to know us
+                                    <br /> Visit our github pages to learn more about us
                         </p>
 
                             </div>

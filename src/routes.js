@@ -3,7 +3,6 @@ import { Switch, Route } from "react-router-dom";
 
 //components
 import Main from "./components/Main";
-import Thanks from "./components/Thanks";
 
 
 const Routes = () => (
