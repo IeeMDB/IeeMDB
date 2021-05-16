@@ -9,21 +9,7 @@ const Contact = () => {
         history.goBack();
     }
 
-    const [title, setTitle] = useState("");
-    const [content, setContent] = useState("");
-    const [contactEmail, setContactEmail] = useState("");
 
-    const sendEmail = async (e) => {
-        e.preventDefault();
-
-        let email = {
-            title,
-            content,
-            contactEmail
-        }
-
-        console.log("sending email", email);
-    }
 
 
     return (

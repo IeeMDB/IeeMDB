@@ -10,7 +10,7 @@ function App() {
 
   window.addEventListener("load", () => {
 
-    if (window.location.pathname === "/contact") {
+    if (window.location.pathname === "/ourteam") {
       setPath(window.location.pathname);
     }
   });
@@ -30,8 +30,8 @@ function App() {
 
   const showContact = path;
   let _contact;
-  if (showContact !== "/contact") {
-    _contact = (<li><Link to="/contact">Our Team</Link></li>)
+  if (showContact !== "/ourteam") {
+    _contact = (<li><Link to="/ourteam">Our Team</Link></li>)
   }
 
 
