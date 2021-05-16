@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/IeeMDB/static/css/main.730747a3.chunk.css",
-    "main.js": "/IeeMDB/static/js/main.006cd57b.chunk.js",
-    "main.js.map": "/IeeMDB/static/js/main.006cd57b.chunk.js.map",
+    "main.js": "/IeeMDB/static/js/main.e07eb302.chunk.js",
+    "main.js.map": "/IeeMDB/static/js/main.e07eb302.chunk.js.map",
     "runtime-main.js": "/IeeMDB/static/js/runtime-main.46f6ad5a.js",
     "runtime-main.js.map": "/IeeMDB/static/js/runtime-main.46f6ad5a.js.map",
-    "static/js/2.bf486852.chunk.js": "/IeeMDB/static/js/2.bf486852.chunk.js",
-    "static/js/2.bf486852.chunk.js.map": "/IeeMDB/static/js/2.bf486852.chunk.js.map",
+    "static/js/2.c9651642.chunk.js": "/IeeMDB/static/js/2.c9651642.chunk.js",
+    "static/js/2.c9651642.chunk.js.map": "/IeeMDB/static/js/2.c9651642.chunk.js.map",
     "index.html": "/IeeMDB/index.html",
-    "precache-manifest.64a02e9a9a086e4527f0fd8c6f5dfb5c.js": "/IeeMDB/precache-manifest.64a02e9a9a086e4527f0fd8c6f5dfb5c.js",
+    "precache-manifest.68f4a95e9ae7218e2e345f782b1d7695.js": "/IeeMDB/precache-manifest.68f4a95e9ae7218e2e345f782b1d7695.js",
     "service-worker.js": "/IeeMDB/service-worker.js",
     "static/css/main.730747a3.chunk.css.map": "/IeeMDB/static/css/main.730747a3.chunk.css.map",
-    "static/js/2.bf486852.chunk.js.LICENSE.txt": "/IeeMDB/static/js/2.bf486852.chunk.js.LICENSE.txt",
+    "static/js/2.c9651642.chunk.js.LICENSE.txt": "/IeeMDB/static/js/2.c9651642.chunk.js.LICENSE.txt",
     "static/media/index.css": "/IeeMDB/static/media/Group 3.1b483f5f.svg",
     "static/media/preview.jpg": "/IeeMDB/static/media/preview.808a6548.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.46f6ad5a.js",
-    "static/js/2.bf486852.chunk.js",
+    "static/js/2.c9651642.chunk.js",
     "static/css/main.730747a3.chunk.css",
-    "static/js/main.006cd57b.chunk.js"
+    "static/js/main.e07eb302.chunk.js"
   ]
 }
