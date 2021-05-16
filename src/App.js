@@ -15,7 +15,7 @@ function App() {
           <ul>
             <li style={{ display: 'flex' }}>
               <PlayCircleOutlineIcon style={{ fontSize: 30, padding: '0px 8px' }} />
-              <Link to="/"> IeeMDB </Link>
+              <Link to="/IeeMDB"> IeeMDB </Link>
             </li>
           </ul>
           <ul>
